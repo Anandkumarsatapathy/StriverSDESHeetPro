@@ -17,16 +17,16 @@ void sort012(int a[], int arr_size)
     {
         if (a[mid] == 0)
         {
-            swap(a[mid, a[low]]);
+            swap(a[mid], a[low]);
             low++;
-            mid++''
+            mid++;
         }
-        if (arr[mid] == 1)
+        if (a[mid] == 1)
         {
             mid++;
         }
-        
-        if (arr[mid] == 2)
+
+        if (a[mid] == 2)
         {
             swap(a[mid], a[high]);
             high--;
